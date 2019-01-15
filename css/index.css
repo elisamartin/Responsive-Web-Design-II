@@ -59,6 +59,14 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+html{
+    font-size: 62.5%;  /* Responsive Web Design II change */
+}
+
+body{
+    max-width: 880px;  /* Responsive Web Design II change */
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
@@ -263,3 +271,4 @@ p{
         padding-bottom: 20px;
     }
   }
+
