@@ -65,6 +65,7 @@ html{
 
 body{
     max-width: 880px;  /* Responsive Web Design II change */
+    font-size: 1.2rem; /* Responsive Web Design II change */
 }
 
 h1, h2, h3, h4, h5 {
@@ -77,7 +78,6 @@ h1, h2, h3, h4, h5 {
 
 body {
 	margin: 0 auto;
-	width: 90%;	
 }
 header {
 	position: sticky;
@@ -91,11 +91,11 @@ nav{
 	display: flex;
 	flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: white;
 }
 a {
-  	padding: 5%;
+  	padding: 7%;
   	color: gray;
 	text-decoration: none;
 }	
@@ -113,7 +113,7 @@ a {
     padding: 20px 0 20px 0;
 }
 h1{
-	font-size: 70px; 
+	font-size: 7rem; 
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -218,6 +218,9 @@ p{
 
 @media (max-width: 800px) {
 
+    a{
+        padding: 4%;
+    }
     header{
         padding-top: 3%;
         display: flex;
@@ -252,12 +255,17 @@ p{
     }
   }
 @media (max-width: 500px) {
+    body{
+        font-size: 1.5rem;
+    }
+
     a{  
         width: 100%;
         background-color: white;
-        border-top: 0.5px solid black;
         border-bottom: 0.2px solid black;
+        border-top: 0.05px solid black;
         text-align: center;
+        font-size: 1.8rem;
     }
     .two-columns, .three-columns{
         width: 100%;
