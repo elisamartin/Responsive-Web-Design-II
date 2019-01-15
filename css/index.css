@@ -279,3 +279,23 @@ p{
     }
     
   }
+
+  /*About page*/
+
+  .about-header-img{
+      width: 100%;
+  }
+
+  .main-section{
+      width: 60%;
+  }
+
+  .right-section{
+      width: 35%;
+  }
+
+  .our-section{
+      display: flex;
+      flex-direction: row;
+  }
+ 
